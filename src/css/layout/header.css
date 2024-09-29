@@ -1,0 +1,13 @@
+.header {
+  .header-content {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+    h1 {
+      font-size: 25px;
+    }
+  }
+  background: var(--yellow);
+}

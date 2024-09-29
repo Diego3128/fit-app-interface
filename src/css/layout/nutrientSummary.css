@@ -1,0 +1,28 @@
+.nutrient-summary,
+.nutrient-summary__item {
+  display: flex;
+}
+
+.nutrient-summary {
+  height: 170px;
+  justify-content: space-around;
+  align-items: center;
+  background: var(--whiteSummary);
+  color: var(--black);
+  padding: 30px 20px;
+}
+
+.nutrient-summary__item {
+  font-size: 0.9rem;
+  flex-direction: column;
+  row-gap: 10px;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  .nutrient-summary__label {
+    background: var(--black);
+    color: var(--white);
+    border-radius: 20px;
+    padding: 10px;
+  }
+}

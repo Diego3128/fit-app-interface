@@ -1,0 +1,14 @@
+.meal-section {
+  border: 1px solid black;
+  text-align: center;
+
+  .meal__name {
+    text-align: left;
+    background: var(--black);
+    color: var(--white);
+    font-weight: bold;
+    margin: 0;
+    padding: 8px;
+    font-size: 1.2rem;
+  }
+}

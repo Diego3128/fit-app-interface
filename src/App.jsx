@@ -1,13 +1,22 @@
-import { useState } from 'react'
+// Components
 import Header from './components/Header'
+import NutrientSummary from './components/NutrientSummary'
+import MealSection from './components/MealSection';
+
+//data
+import { foods } from './data/foods';
+
 import './css/App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <Header></Header>
+      <Header />
+      <NutrientSummary foods={foods} />
+      <MealSection title="Desayuno" foods={foods} />
+      <MealSection title="Almuerzo" foods={foods} />
+      <MealSection title="Comida" foods={foods} />
     </>
   )
 }
